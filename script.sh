@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo "You need to install npm, node, electron and all the dependencies!"
-echo "Do you permit me to install everyting? (y/n)"
+echo "You need to install npm and node"
+echo "Do you permit me to electron and all the dependencies? (y/n)"
 read input_variable
 
 if input_variable -eq "y"
